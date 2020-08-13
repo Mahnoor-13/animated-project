@@ -1,0 +1,91 @@
+* {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+}
+.App {
+  text-align: center;
+  background: linear-gradient(
+    57deg,
+    #6f138b,
+    #94a5b6,
+    #061c31,
+    #97b7d4,
+    #1e4d92
+  );
+  /* clip-path: polygon(0% 0%, 100% 0%, 100% 80%, 0% 100%); */
+  height: auto;
+  /* overflow: hidden; */
+}
+.web {
+  color: white;
+  padding: 23%;
+  font-size: 2rem;
+}
+.para {
+  font-size: 1.5rem;
+  padding: 3%;
+  color: white;
+}
+.images {
+  /* border: 2px solid white; */
+  width: 30%;
+  border-bottom-left-radius: 55px;
+  border-top-right-radius: 55px;
+  /* padding: 1%; */
+
+}
+.all-cards {
+  display: flex;
+  justify-content: space-evenly;
+  /* padding: 3%; */
+  margin: 6%;
+}
+button {
+  font-size: 17px;
+  font-weight: bold;
+  color: white;
+  text-transform: uppercase;
+  background: linear-gradient(57deg, #6f138b, #1e4d92);
+  border-radius: 40px;
+  padding: 20px 30px;
+}
+button:hover {
+  background: linear-gradient(57deg, #1e4d92, #6f138b);
+  cursor: pointer;
+}
+.heading-color {
+  color: white;
+  font-size: 2.5rem;
+}
+.input-btn {
+  display: flex;
+  justify-content: space-evenly;
+  padding: 2%;
+}
+.btn {
+  font-size: 17px;
+  font-weight: bold;
+  color: white;
+  text-transform: uppercase;
+  background: linear-gradient(57deg, #6f138b, #1e4d92);
+  border-radius: 40px;
+  padding: 10px 20px;
+}
+.inp {
+  width: 225%;
+  height: 85%;
+  border-radius: 55px;
+  padding: 8%;
+  font-size: 0.9rem;
+}
+.img-para2 {
+  padding: 7%;
+  display: flex;
+}
+.para2 {
+  font-size: 1.5rem;
+  padding: 5%;
+  color: white;
+}
+
