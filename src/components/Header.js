@@ -1,8 +1,5 @@
 import React from "react";
-// import logo from "./logo.svg";
-// import "../App.css";
 import WOW from "wowjs";
-// import Cards from "./Cards"
 
 function Header() {
   new WOW.WOW().init();
