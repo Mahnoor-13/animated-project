@@ -16,7 +16,7 @@ function CardDown() {
         </p>
       </div>
       <div>
-        <img className="img2 wow animate__flipInY" data-wow-duration="1s" src={require("../images/dev.png")} />
+        <img className="img2 wow animate__flipInY" data-wow-duration="1s" src={require("../images/dev.png")} alt="img" />
       </div>
     </div>
   );
